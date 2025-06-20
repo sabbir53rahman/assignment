@@ -29,4 +29,10 @@
   .paragraph {
     @apply text-[12px] md:text-[14px] lg:text-[18px] font-normal;
   }
+  .bg_secondary{
+    @apply bg-[#c5ffee]
+  }
+  .bg_main{
+    @apply bg-[#c5ff41]
+  }
 }

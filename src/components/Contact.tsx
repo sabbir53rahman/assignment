@@ -26,7 +26,7 @@ const Contact = () => {
 
         <h2 className="heading1 text-black">
           Interested in <br />
-          <span className="bg-black text-white px-3 h-[100px] rounded-[12px] inline-block">
+          <span className="bg-black text-white px-3 h-[80px] md:h-[100px] rounded-[12px] inline-block">
             work
           </span>{" "}
           together?

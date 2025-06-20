@@ -24,7 +24,7 @@ const ButtonSecondary: React.FC<ButtonSecondaryProps> = ({
     >
       {/* Icon Circle */}
       <div
-        className={`flex items-center justify-center w-[44px] h-[44px] rounded-full border ${borderColor}`}
+        className={`flex items-center justify-center w-[44px] h-[44px] rounded-full border ${textColor} ${borderColor}`}
       >
         {icon}
       </div>

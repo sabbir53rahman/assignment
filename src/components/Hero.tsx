@@ -21,7 +21,7 @@ export default function Hero() {
         priority
       />
 
-      <div className="absolute left-[50px] bottom-[150px] flex flex-row items-end gap-4 text-black z-10">
+      <div className="hidden lg:flex absolute left-[50px] bottom-[150px]  flex-row items-end gap-4 text-black z-10">
         {/* Left Column: Username + Divider */}
         <div className="flex flex-col items-center space-y-4">
           <div
@@ -50,13 +50,13 @@ export default function Hero() {
       <div className="w-full mx-auto text-center z-10">
         <h1 className="heading1 text-black text-start max-w-[1240px]">
           Trusted{" "}
-          <span className="bg-black text-white px-3 py-1 rounded-[11px] h-[100px] inline-block">
+          <span className="bg-black text-white px-3 py-1 rounded-[11px] h-[80px] md:h-[100px] inline-block">
             Partner
           </span>{" "}
           for
           <br />
           Your Website{" "}
-          <span className="bg-black text-white px-3 py-1 rounded-[11px] h-[100px] inline-block">
+          <span className="bg-black text-white px-3 py-1 rounded-[11px] h-[80px] md:h-[100px] inline-block">
             Develop.
           </span>
         </h1>
