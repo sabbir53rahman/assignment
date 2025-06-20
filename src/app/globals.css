@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Sporting Grotesque";
+    src: url("/fonts/SportingGrotesque-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Sporting Grotesque";
+    src: url("/fonts/SportingGrotesque-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body {
+    font-family: "Sporting Grotesque", sans-serif;
+  }
+}
+
+@layer components {
+  .heading1 {
+    @apply text-[50px] md:text-[65px] lg:text-[78px] font-[700] leading-[80px] md:leading-[100px] lg:leading-[126px];
+  }
+  .paragraph {
+    @apply text-[12px] md:text-[14px] lg:text-[18px] font-normal;
+  }
+}
