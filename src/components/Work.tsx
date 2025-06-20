@@ -57,7 +57,7 @@ const processCards = [
 
 export const Work = (): JSX.Element => {
   return (
-    <section className="py-16 bg-[#141414] rounded-[40px] mx-[10px] md:mx-[30px] mt-[20px] lg:mt-[-110px]">
+    <section className="py-16 bg-[#141414] rounded-[40px] mx-[10px]  mt-[20px] lg:mt-[-110px]">
       <div className="container mx-auto px-[20px]">
         <div className="flex flex-col items-center mb-10">
           <h2 className="text-white text-[30px] md:text-[45px] lg:text-[58px] leading-[60px] md:leading-[86px] text-center mb-4 tracking-[-1.74px]">
